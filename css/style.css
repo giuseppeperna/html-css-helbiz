@@ -59,6 +59,7 @@ body {
   background-color: #FFF;
   position: fixed;
   width: 100%;
+  z-index: 1
 }
 
 #navbar [src="img/logo-helbiz.svg"] {
