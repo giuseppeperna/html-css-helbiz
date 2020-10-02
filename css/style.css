@@ -146,7 +146,7 @@ body {
   display: block;
   left:50%;
   transform: translate(-50%, -50%);
-  margin-top: 45px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -160,6 +160,68 @@ body {
   top:50%;
   right:0;
   transform: translate(0, -50%);
+}
+
+/* MAIN SECTION */
+
+#bikes [class*="col-"] {
+  position: relative;
+  height: 850px;
+}
+
+#bikes .container {
+  max-width: 90%;
+}
+
+.bike-model {
+  width:95%;
+  height: 90%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  background-color: #fafafa;
+}
+
+.bike-content {
+  width:100%;
+  height: 90%;
+  position: absolute;
+  left:50%;
+  bottom:0;
+  transform:translate(-50%, 0);
+  /* background: chartreuse; */
+}
+
+.bike-content img[src="img/bizbike-logo.svg"], .bike-content img[src="img/bizgo-logo.svg"]  {
+  position: absolute;
+  left:50%;
+  top:0;
+  transform:translate(-50%,-50%);
+  width:200px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.bike-content img[src="img/helbiz-bike.jpg"], .bike-content img[src="img/helbizgo.jpg"] {
+  position: absolute;
+  left:50%;
+  bottom:30px;
+  transform:translate(-50%, 0);
+  width: 70%;
+}
+
+.bike-content p {
+  text-align: center;
+  margin:65px 0 30px 0;
+}
+
+.bike-content a {
+  display: block;
+  text-align: center;
+  margin: 15px 0 15px 0;
+  font-size: 1rem;
 }
 
 /* MEDIA QUERY  */
@@ -179,19 +241,38 @@ body {
     margin-right:10px;
   }
 
+  .bike-content img[src="img/helbiz-bike.jpg"], .bike-content img[src="img/helbizgo.jpg"] {
+    position: absolute;
+    left:50%;
+    bottom:0;
+    transform:translate(-50%, 0);
+  }
+
+  .bike-content p {
+    padding: 0 10px 0 10px;
+  }
+
+  #bikes [class*="col-"] {
+    position: relative;
+    height: 500px;
+  }
+
 }
 
+
 @media screen and (max-width: 768px) {
-  .hero-text h1 {
-    font-size: 2.5rem;
+
+  #bikes [class*="col-"] {
+    position: relative;
+    height: 500px;
   }
 
-  .hero-text p {
-    font-size: 0.9rem;
+  .bike-content img[src="img/helbiz-bike.jpg"], .bike-content img[src="img/helbizgo.jpg"] {
+    position: absolute;
+    left:50%;
+    bottom:30px;
+    transform:translate(-50%, 0);
+    width: 250px;
   }
 
-  .logos img {
-    width: 120px;
-    margin-right:10px;
-  }
 }
