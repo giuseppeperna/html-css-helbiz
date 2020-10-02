@@ -190,7 +190,6 @@ body {
   left:50%;
   bottom:0;
   transform:translate(-50%, 0);
-  /* background: chartreuse; */
 }
 
 .bike-content img[src="img/bizbike-logo.svg"], .bike-content img[src="img/bizgo-logo.svg"]  {
@@ -258,7 +257,6 @@ body {
   }
 
 }
-
 
 @media screen and (max-width: 768px) {
 
