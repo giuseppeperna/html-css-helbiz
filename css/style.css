@@ -148,3 +148,12 @@ body {
   width: 150px;
   margin-right:10px;
 }
+
+.menu-bars {
+  float:right;
+  position: absolute;
+  text-align: left;
+  top:50%;
+  right:0;
+  transform: translate(0, -50%);
+}

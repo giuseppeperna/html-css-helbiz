@@ -3,23 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/12-bool.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Helbiz Replica</title>
   </head>
 
-  <body class="debuga">
+  <body class="">
     <!-- Corpo principale -->
     <div id="root" class="root-container">
       <!-- Navbar & Hero -->
       <header id="navbar-jumbotron">
         <nav>
           <div class="container">
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-md-6 col-xs-6">
               <img src="img/logo-helbiz.svg" class="logo" alt="logo helbiz">
             </div>
-            <div class="left-nav col-lg-8">
+            <div class="left-nav col-lg-8 col-md-8 display-none-md display-none-xs">
               <ul>
                 <li><a href="#" class="decoration-none black-text">HELBIZGO</a></li>
                 <li><a href="#" class="decoration-none black-text">HELBIZCAR</a></li>
@@ -30,12 +31,15 @@
                 <li><a href="#" class="decoration-none black-text">SHOP</a></li>
               </ul>
             </div>
-            <div class="right-nav col-lg-2">
+            <div class="right-nav col-lg-2 col-md-2 display-none-md display-none-xs">
               <ul>
                 <li><a href="#" class="decoration-none black-text">ENG</a></li>
                 <li><a href="#" class="decoration-none black-text">ITA</a></li>
                 <li><a href="#" class="decoration-none black-text">ES</a></li>
               </ul>
+            </div>
+            <div class="display-none-lg col-md-6 col-xs-6">
+              <i class="fa fa-bars menu-bars" aria-hidden="true"></i>
             </div>
           </div>
         </nav>
