@@ -169,6 +169,11 @@ body {
     font-size: 0.9rem;
   }
 
+  .logos img {
+    width: 130px;
+    margin-right:10px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -181,7 +186,7 @@ body {
   }
 
   .logos img {
-    width: 110px;
+    width: 120px;
     margin-right:10px;
   }
 }
