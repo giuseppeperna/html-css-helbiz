@@ -21,6 +21,14 @@ body {
   position: relative;
 }
 
+.float-left {
+  float:left;
+}
+
+.float-right {
+  float: right;
+}
+
 /* COLOURS */
 
 .white-text {
@@ -47,13 +55,7 @@ body {
   height: 650px;
 }
 
-.container-hero {
-  background-image: url(../img/header.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-#navbar-jumbotron .logo {
+#navbar-jumbotron [src="img/logo-helbiz.svg"] {
   position: absolute;
   left:0;
   top:50%;
@@ -61,16 +63,20 @@ body {
   width: 90px;
 }
 
+.container-hero {
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .left-nav li  {
   display: inline-block;
-  float: left;
   font-size: 0.7rem;
   margin: 0 0 0 25px;
 }
 
 .right-nav li {
   display: inline-block;
-  float: left;
   font-size: 0.7rem;
   margin:0;
   padding: 0 8px;
@@ -142,7 +148,6 @@ body {
 }
 
 .menu-bars {
-  float:right;
   position: absolute;
   text-align: left;
   top:50%;
