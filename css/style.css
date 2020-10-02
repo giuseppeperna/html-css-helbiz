@@ -55,7 +55,13 @@ body {
   height: 650px;
 }
 
-#navbar-jumbotron [src="img/logo-helbiz.svg"] {
+#navbar {
+  background-color: #FFF;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar [src="img/logo-helbiz.svg"] {
   position: absolute;
   left:0;
   top:50%;
