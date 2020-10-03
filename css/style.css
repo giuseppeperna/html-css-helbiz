@@ -28,6 +28,10 @@ body {
   float: right;
 }
 
+.container {
+  max-width: 75%;
+}
+
 /* COLOURS */
 
 .white-text {
@@ -38,8 +42,8 @@ body {
   color: #212529;
 }
 
-.container {
-  max-width: 75%;
+.grey-text {
+  color: #686868;
 }
 
 /* NAVBAR SECTION */
@@ -335,12 +339,66 @@ margin-top: 150px;
   width: 98%;
 }
 
+.banner-text {
+  width: 50%;
+  height: 100%;
+  /* background-color: chartreuse; */
+  float: right;
+  position: relative;
+}
+
+.banner-text .text {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text *{
+  padding: 12px 10px;
+}
+
+.text :first-child{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.text :nth-child(2){
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.left-banner-text, .right-banner-text{
+  position: absolute;
+  top:10%;
+  left:50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  /* background: chartreuse; */
+  width: 90%;
+  font-size: 1.3rem;
+}
+
+.left-banner-text *, .right-banner-text * {
+  padding: 10px 10px;
+}
+
+.left-banner-text :first-child, .right-banner-text :first-child  {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.left-banner-text :nth-child(2), .right-banner-text :nth-child(2) {
+  margin-bottom: 7px;
+}
+
+/* FOOTER */
+
 #social-banner [class*="col-"] {
   position: relative;
   height: 500px;
 }
-
-/* FOOTER */
 
 #social-banner {
   background-image: url(../img/main-social.jpg);
@@ -348,18 +406,134 @@ margin-top: 150px;
   background-position: center;
 }
 
+.social-text {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  width: 100%;
+  /* background-color: chartreuse; */
+}
+
+.social-text i {
+  margin:15px;
+  font-size: 40px;
+}
+
+.social-text > div {
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.social-text > p {
+  position: absolute;
+  top:35%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
 #footer-section {
   background-color: black;
   margin-top: 45px;
+  height: 1000px;
 }
 
-#footer-section [class*="col-"] {
-  position: relative;
-  height: 850px;
+#footer-section .row div {
+  margin-top: 130px;
 }
+
+#footer-section :first-child [class*="col-"] {
+  position: relative;
+  height: 400px;
+  /* background-color: chartreuse; */
+  border-bottom:1px solid rgba(104,104,104,0.5);
+}
+
+#footer-section :last-child [class*="col-"] {
+  position: relative;
+  height: 160px;
+  /* background-color: chartreuse; */
+  border-bottom: 1px solid rgba(104,104,104,0.5);
+}
+
+#footer-section :last-child [class="col-lg-4"] {
+  border-bottom: 0;
+}
+
 
 #footer-section .container {
   max-width: 75%;
+}
+
+.row img {
+  position: absolute;
+  top:0;
+  width:170px;
+}
+
+.row ul li {
+  display: block;
+  margin-top: 25px;
+  font-size: 1.1rem;
+}
+
+.row h1 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.footer-logos {
+  position: absolute;
+  top:50%;
+  left:0;
+  transform: translate(0, -50%);
+}
+
+.footer-logos i {
+  color: #FFF;
+  margin-right: 18px;
+  font-size: 30px;
+}
+
+.bottom-row h1 {
+  position: absolute;
+  top:50%;
+  left:0;
+  transform: translate(0, -50%);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.os-logos {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  /* background-color: chartreuse; */
+  width:100%;
+  height: 100%;
+}
+
+.app-store {
+  position: absolute;
+  height: 50%;
+  width:80%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.os-logos img {
+  width:45%;
+  border:1px solid #9b9b9b;
+  border-radius: 8px;
+  margin:0 5px;
 }
 
 
@@ -406,6 +580,13 @@ margin-top: 150px;
     right:0;
     transform: translate(0, -50%);
     width: 100%;
+  }
+
+  .banner-text {
+    width: 100%;
+    height: 100%;
+    float: right;
+    position: relative;
   }
 
 }
@@ -459,6 +640,13 @@ margin-top: 150px;
     right:0;
     transform: translate(0, -50%);
     width: 100%;
+  }
+
+  .banner-text {
+    width: 100%;
+    height: 100%;
+    float: right;
+    position: relative;
   }
 
 
