@@ -545,6 +545,86 @@ margin-top: 150px;
 
 /* MEDIA QUERY  */
 
+/* iPad Landscape */
+@media screen and (min-width: 993px) and (max-width: 1024px) {
+  .bike-model {
+    height: 80%;
+  }
+
+  #bikes [class*="col-"] {
+    position: relative;
+    height: 544px;
+  }
+
+  .row img {
+    width:120px;
+    top:10px;
+  }
+
+  .os-logos img {
+    width:115px;
+    border:1px solid #9b9b9b;
+    border-radius: 8px;
+    margin:0 5px;
+  }
+
+  .row h1 {
+    font-size: 1.2rem;
+  }
+
+  .row ul li {
+    font-size: 0.9rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2.4rem;
+  }
+
+  .logos img {
+    width: 120px;
+  }
+
+  #how-works > .container :nth-child(1) > p {
+    font-size: 2.1rem;
+    left:40%;
+  }
+
+  .banner-text {
+    width: 54%;
+  }
+
+  .text :first-child {
+    font-size: 2.5rem;
+  }
+
+  .banner-text .text :nth-child(2) {
+    font-size: 1.1rem;
+  }
+
+  .banner-text .text, .bike-content p, .small-works :last-child,
+  .left-banner-text, .right-banner-text, .row h1, .right-banner-text  {
+    font-size: 1rem;
+  }
+
+  #footer-section {
+    height: 850px;
+  }
+
+  .footer-logos i {
+    font-size: 25px;
+    margin:3px;
+
+  }
+
+  .bottom-row h1 {
+    font-size: 0.8rem;
+  }
+
+  .app-store {
+    width:100%;
+  }
+}
+
 /* DESKTOP */
 @media screen and (min-width: 769px) and (max-width :992px) {
 
@@ -636,7 +716,7 @@ margin-top: 150px;
 
 }
 
-/* iPAD */
+/* iPAD Portrait */
 @media screen and (max-width: 768px) {
 
   #bikes [class*="col-"] {
@@ -699,6 +779,27 @@ margin-top: 150px;
     position: relative;
   }
 
+  .hero-text h1 {
+    font-size: 2.4rem;
+  }
+
+  .logos img {
+    width: 120px;
+  }
+
+  .text :first-child {
+    font-size: 2.5rem;
+  }
+
+  .banner-text .text :nth-child(2) {
+    font-size: 1.1rem;
+  }
+
+  .banner-text .text, .bike-content p, .small-works :last-child,
+  .left-banner-text, .right-banner-text, .row h1, .right-banner-text  {
+    font-size: 1rem;
+  }
+
   #footer-section {
     background-color: black;
     margin-top: 45px;
@@ -753,16 +854,36 @@ margin-top: 150px;
     font-size: 27px;
   }
 
+  .os-logos img {
+    width:110px;
+    border:1px solid #9b9b9b;
+    border-radius: 8px;
+    margin:0 5px;
+  }
+
+  .row h1 {
+    font-size: 1.2rem;
+  }
+
+  .row ul li {
+    font-size: 0.9rem;
+  }
+
+  .bottom-row h1 {
+    font-size: 0.9rem;
+  }
+
 }
 
-/* iPHONE 6/7/8 IOS 11 */
-@media screen and (max-width: 375px) {
+/* iPHONE 6/7/8 Plus IOS 11 */
+@media screen and (max-width: 415px) {
 
   .hero-text h1 {
     font-size: 2.4rem;
   }
 
-  .banner-text .text {
+  .banner-text .text, .bike-content p, .small-works :last-child,
+  .left-banner-text, .right-banner-text, .row h1, .right-banner-text  {
     font-size: 1rem;
   }
 
@@ -772,10 +893,6 @@ margin-top: 150px;
 
   .logos img {
     width: 120px;
-  }
-
-  .bike-content p {
-    font-size: 1rem;
   }
 
   .small-works :first-child:not(h4) {
@@ -792,24 +909,12 @@ margin-top: 150px;
     margin-left: 50px;
   }
 
-  .small-works :last-child{
-    font-size: 1rem;
-  }
-
   .banner-text .text :nth-child(2) {
     font-size: 1.1rem;
   }
 
   .banner-text .text :nth-child(1) {
     font-size: 2.4rem;
-  }
-
-  .left-banner-text {
-    font-size: 1rem;
-  }
-
-  .right-banner-text {
-    font-size: 1rem;
   }
 
   .social-text > p {
@@ -833,8 +938,8 @@ margin-top: 150px;
     margin:0 5px;
   }
 
-  .row h1 {
-    font-size: 1rem;
+  .row img {
+    width:140px;
   }
 
   .row ul li {
