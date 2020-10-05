@@ -661,6 +661,14 @@ margin-top: 150px;
     width: 100%;
   }
 
+  .get-the-app {
+    width:100%
+  }
+
+  .find-us {
+    width:100%
+  }
+
   .socials {
     width:100%;
   }
@@ -800,6 +808,14 @@ margin-top: 150px;
     font-size: 1rem;
   }
 
+  .get-the-app {
+    width:100%
+  }
+
+  .find-us {
+    width:100%
+  }
+
   #footer-section {
     background-color: black;
     margin-top: 45px;
@@ -915,6 +931,14 @@ margin-top: 150px;
 
   .banner-text .text :nth-child(1) {
     font-size: 2.4rem;
+  }
+
+  .get-the-app {
+    width:100%
+  }
+
+  .find-us {
+    width:100%
   }
 
   .social-text > p {
